@@ -13,7 +13,7 @@ function Login()
                 <button>Submit</button>
             </form>
             <p></p>
-            <p>Register</p>
+            <Link to="/register">Register</Link>
             <p></p>
             <Link to="/">Home</Link>
         </>
