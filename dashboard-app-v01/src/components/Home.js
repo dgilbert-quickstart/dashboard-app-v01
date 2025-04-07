@@ -2,7 +2,7 @@ function Home()
 {
     return (
         <>
-            <p>React Dashboard App v1.0</p>
+            <p>React Dashboard App v1.1</p>
             <p></p>
             <p>
                 Login
