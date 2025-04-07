@@ -1,9 +1,10 @@
+import Home from "./components/Home"
 import './App.css';
 
 function App() {
   return (
     <>
-      <p>React Dashboard Demo App v01</p>
+      <Home/>
     </>
   );
 }
