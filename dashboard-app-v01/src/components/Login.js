@@ -12,7 +12,7 @@ function Login()
         e.preventDefault()
 
         console.log("# handleLogin")
-        console.log(`# username: ${txtusername} password: ${txtpassword}`)
+        console.log(`# username: ${txtusername.current.value} password: ${txtpassword.current.value}`)
         
         //validae field
 
