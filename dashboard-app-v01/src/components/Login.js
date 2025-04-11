@@ -24,7 +24,7 @@ function Login()
         const _pwd = txtpassword.current.value
         
         //const _url = `http://localhost:8080/login/${_uid}/${_pwd}`;  
-        const _url = `https://${_replit_url}/login/${_uid}/${_pwd}`;  
+        const _url = `${_replit_url}/login/${_uid}/${_pwd}`;  
 
         if(_uid === null || _uid.trim().length === 0)
         {
@@ -47,8 +47,7 @@ function Login()
             if(data.login === true)
             {
                 console.log("# navigate to dashbpoard")
-                navigate("/dashboard")
-                //navigate("/dashboard",{replace:true})
+                navigate("/dashboard",{replace:true})
             }
 
             setMsg(data.msg)
