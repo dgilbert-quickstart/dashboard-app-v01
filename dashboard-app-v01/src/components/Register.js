@@ -87,6 +87,7 @@ function Register()
 
     return (
         <>
+        <div className="app-center-page">
             <p>Register</p>
             <p></p>
             <form onSubmit={(e)=>handleSubmit(e)}>
@@ -104,6 +105,7 @@ function Register()
             <Link to="/login">Login</Link>
             <p></p>
             <Link to="/">Home</Link>
+        </div>
         </>
     )
 }

@@ -11,27 +11,27 @@ function Dashboard()
                 {" "}
                 <Link to="/login">logout</Link>
             </nav>
-            <p></p>
-            <table>
-                <tr>
-                    <td>
+            <div className="app-center-page">
+                <p></p>
+                <div style={{display:"flex"}}>
+                    <div>
                         <p>Category 1</p>
                         <p>Category 2</p>
                         <p>Category 3</p>
                         <p>Category 4</p>
                         <p>Category 5</p>
                         <p>Category 6</p>
-                    </td>
-                    <td>
+                    </div>                 
+                    <div>
                         <p>Category 1</p>
-                    </td>
-                    <td>
+                    </div>                    
+                    <div>
                         [about]
-                    </td>
-                </tr>
-            </table>
-            <p></p>
-            <span>Footer @ 2025</span>
+                    </div>                
+                </div>
+                <p></p>
+                <span>Footer @ 2025</span>
+            </div>
         </>
     )
 }
