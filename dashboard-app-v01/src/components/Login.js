@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from "react";
 
 function Login()
 {
-    //lgoto a page/route in code - ie:redirect 
+    //goto a page/route in code - ie:redirect 
     let navigate = useNavigate();
 
     const txtusername = useRef("")
