@@ -13,8 +13,8 @@ function Dashboard()
             </nav>
             <div className="app-center-page">
                 <p></p>
-                <div style={{display:"flex"}}>
-                    <div>
+                <div style={{display:"flex", width:"90%"}}>
+                    <div style={{width:"30%"}}>
                         <p>Category 1</p>
                         <p>Category 2</p>
                         <p>Category 3</p>
@@ -22,10 +22,10 @@ function Dashboard()
                         <p>Category 5</p>
                         <p>Category 6</p>
                     </div>                 
-                    <div>
+                    <div style={{width:"50%"}}>
                         <p>Category 1</p>
                     </div>                    
-                    <div>
+                    <div style={{width:"20%"}}>
                         [about]
                     </div>                
                 </div>
